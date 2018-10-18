@@ -25,10 +25,10 @@ public:
                     second = j;
                     s = 1;
                 }
+        
         //把找到的两个下标放进最后返回的数组容器中
-        //注意,找到下标之后，又会执行一次i++，j++，所以出来需要i-1,j-1
-        arr.push_back(i -1);
-        arr.push_back(j -1);
+        arr.push_back(first);
+        arr.push_back(first);
         
         return arr;
     }
